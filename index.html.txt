@@ -1,12 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aakash's Portfolio</title>
+    <meta name="description" content="Aakash Brajan's portfolio website showcasing skills, projects, and resume.">
+    <title>Aakash Brajan - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Coming soon...</p>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills & Tools</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi, I’m Aakash Brajan, a passionate product designer and engineering enthusiast currently pursuing an MSc in Mechatronics and an MBA at TUHH, Hamburg. With a strong foundation in mechanical engineering and years of experience in product design, I focus on creating innovative solutions that combine functionality, aesthetics, and manufacturability. I’m particularly interested in exploring how machine learning can enhance product design and automation systems. My goal is to leverage my diverse skills in engineering and business to shape the future of technology and product development.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Title 1</h3>
+            <p>Description of the project goes here. Add details about what you worked on and the technologies used.</p>
+            <p><strong>Technologies used:</strong> List of technologies (e.g., Java, SolidWorks, Arduino)</p>
+            <a href="#">View Project</a> <!-- Link to GitHub or demo -->
+        </div>
+
+        <div class="project">
+            <h3>Project Title 2</h3>
+            <p>Description of the project goes here. Add details about what you worked on and the technologies used.</p>
+            <p><strong>Technologies used:</strong> List of technologies (e.g., Python, TensorFlow)</p>
+            <a href="#">View Project</a> <!-- Link to GitHub or demo -->
+        </div>
+
+        <!-- Add more projects as needed -->
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills & Tools</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> Java, Python</li>
+            <li><strong>Mechanical Design:</strong> CAD, SolidWorks</li>
+            <li><strong>Mechatronics & Robotics:</strong> Sensors, Actuators, Automation</li>
+            <li><strong>Machine Learning:</strong> Algorithms, Data Analysis</li>
+        </ul>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume below:</p>
+        <a href="path/to/your_resume.pdf" download>Download Resume (PDF)</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, feel free to reach out to me via email:</p>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Aakash Brajan</p>
+    </footer>
+
 </body>
+
 </html>
